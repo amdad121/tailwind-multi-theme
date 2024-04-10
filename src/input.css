@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --color-primary: theme(colors.red.500);
+        --color-secondary: theme(colors.green.500);
+    }
+
+    [data-theme='theme1'] {
+        --color-primary: theme(colors.yellow.500);
+        --color-secondary: theme(colors.gray.500);
+    }
+}
