@@ -1,13 +1,13 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tailwind CSS Multi Theme",
   "main": "index.js",
   "scripts": {
     "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
   },
-  "author": "",
+  "author": "Amdadul Haq",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.3"
